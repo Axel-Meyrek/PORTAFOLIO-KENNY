@@ -1,0 +1,11 @@
+{
+  "name": "portafolio-kenny",
+  "version": "1.0.0",
+  "description": "Portafolio del diseñador Kenny",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Axel Velasco Chavez",
+  "license": "ISC"
+}

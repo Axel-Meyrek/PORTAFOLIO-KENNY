@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- METADATOS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- STYLES -->
+    <link rel="stylesheet" href="style.css">
+    <!-- TITLE -->
+    <title>Kenny Hernandez</title>
+</head>
+<body>
+    <!-- BARRA DE NAVEGACIÓN -->
+    <nav class="nav">
+        <!-- <a class="nav_item" href="">Sobre Mi</a>
+        <a class="nav_item" href="">Habilidades</a>
+        <a class="nav_item" href="">Proyectos</a> -->
+    </nav>
+
+
+    <!-- PRESENTACIÓN -->
+    <header class="header">
+
+        <!-- SOBRE MI -->
+         <section class="sobreMi">
+            <img width="400px" src="img/name.png" alt="">
+
+            <article class="sobreMi_description">
+
+                <div class="descriptionVisible">
+                    <img style="max-width: 300px;" class="descriptionVisible_logo" src="img/LogoKenny.webp" alt="">
+                    <h2 class="descriptionVisible_title">Diseñador Grafico <br> e ilustrador</h2>
+                </div>
+
+                <div class="descriptionHidden">
+                    <p class="descriptionHidden_description">Soy un estudiante de diseño gráfico, me distingo por mi excelencia académica y mi pasión por superar expectativas en cada proyecto. Mi enfoque innovador y resolutivo me impulsa a explorar nuevas ideas y técnicas.</p>
+                </div>
+            </article>
+
+
+            <button id="buttonRedes" class="sobreMi_button">¿Donde encontrarme?</button>
+
+
+            <nav id="containerRedes" class="redes">
+                
+                <img style="max-width: 60px;" class="redes_logo" src="img/LogoKenny.webp" alt="">
+                <p class="redes_tag">@kittyKenny</p>
+                <!-- REDES -->
+                <a class="redes_button" href="">
+                    <i class="fa-brands fa-behance"></i>
+                    <p class="redes_button_tag">Behance</p>
+                </a>
+                <!-- REDES -->
+                <a class="redes_button" href="">
+                    <i class="fa-brands fa-youtube"></i>
+                    <p class="redes_button_tag">Kenny Cupid</p>
+                </a>
+                <!-- REDES -->
+                <a class="redes_button" href="">
+                    <i class="fa-brands fa-artstation"></i>
+                    <p class="redes_button_tag">ArtStation</p>
+                </a>
+                <!-- REDES -->
+                <a class="redes_button" href="">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <p class="redes_button_tag">Linkedin</p>
+                </a>
+            </nav>
+         </section>
+
+         <!-- RESUMEN PROYECTOS -->
+        <section class="resumenProyectos">
+            <!-- PROYECTO -->
+            <article class="resumenProyecto">
+                <div class="resumenProyecto_info vino">
+                    <div class="boxButton">
+                        <button class="buttonOcultarInfo"> -> </button>
+                    </div>
+                    <div class="resumenDescription">
+                        <h2 class="resumenProyecto_name">Bodoni Typebook</h2>
+                        <p class="resumenProyecto_description">Proyecto gráfico, maquetación e investigación realizado para un Typebook de la tipografía Bodoni</p>
+                        <button class="resumenProyecto_leerMas">Leer más</button>
+                    </div>
+                </div>
+                <div class="resumenProyecto_containerMiniatura">
+                    <img class="resumenProyecto_minuatura" src="img/Proyecto1.jpg" alt="Portada del proyecto">
+                </div>
+            </article>
+            <!-- PROYECTO -->
+            <article class="resumenProyecto">
+                <div class="resumenProyecto_info red">
+                    <div class="boxButton">
+                        <button class="buttonOcultarInfo"> -> </button>
+                    </div>
+                    <div class="resumenDescription">
+                        <h2 class="resumenProyecto_name">Re-Diseño:
+                            Infome del Rector UPAEP</h2>
+                        <p class="resumenProyecto_description"> Se pensó en un diseño el que tuviera un estilo de periódico y composición que generara una lectura dinámica. </p>
+                        <button class="resumenProyecto_leerMas">Leer más</button>
+                    </div>
+                </div>
+                <div class="resumenProyecto_containerMiniatura">
+                    <img class="resumenProyecto_minuatura" src="img/Proyecto2.jpg" alt="Portada del proyecto">
+                </div>
+            </article>
+            <!-- PROYECTO -->
+            <article class="resumenProyecto">
+                <div class="resumenProyecto_info green">
+                    <div class="boxButton">
+                        <button class="buttonOcultarInfo"> -> </button>
+                    </div>
+                    <div class="resumenDescription">
+                        <h2 class="resumenProyecto_name">Bellamoda Magazine</h2>
+                        <p class="resumenProyecto_description">El proyecto de revista "bellamoda" surgió como una idea de revista para presentar moda y artículos de opinión. </p>
+                        <button class="resumenProyecto_leerMas">Leer más</button>
+                    </div>
+                </div>
+                <div class="resumenProyecto_containerMiniatura">
+                    <img class="resumenProyecto_minuatura" src="img/Proyecto3.jpg" alt="Portada del proyecto">
+                </div>
+            </article>
+            <!-- PROYECTO -->
+            <article class="resumenProyecto">
+                <div class="resumenProyecto_info greenLigth">
+                    <div class="boxButton">
+                        <button class="buttonOcultarInfo"> -> </button>
+                    </div>
+                    <div class="resumenDescription">
+                        <h2 class="resumenProyecto_name">VIH Y SIDA:
+                            Conozca los hechos</h2>
+                        <p class="resumenProyecto_description">La infografía diseñada tiene como propósito presentar la situación actual en que viven las personas con VIH alrededor del mundo</p>
+                        <button class="resumenProyecto_leerMas">Leer más</button>
+                    </div>
+                </div>
+                <div class="resumenProyecto_containerMiniatura">
+                    <img class="resumenProyecto_minuatura" src="img/Proyecto4.jpg" alt="Portada del proyecto">
+                </div>
+            </article>
+        </section>
+        
+    </header>
+
+
+    <!-- HABILIDADES -->
+    <section class="habilidades">
+        <header class="habilidades_header">
+            <img class="habilidades_logo" width="200px" src="img/LogoKenny.webp" alt="Logo Kenny">
+            <div class="habilidades_descriptionSection">
+                <h1>Kenny Hernandez</h1>
+                <h2>Diseñador Grafico e Ilustrador</h2>
+            </div>
+        </header>
+        <!-- Aqui abajo :3 -->
+        <div class="general_habilidades">
+
+
+            <div class="habilidades_div"> <!-- HABILIDADES -->
+                <div id="habilidadesDiv" class="habilidades_cuadro">
+                    <h3 class="habilidades_titulo habilidades_titulo--color">Habilidades</h3>
+                    <button id="flechaHabilidades">Flecha</button>
+                </div>
+                <div id="divProgramas" class="habilidades_cambiar habilidades_cambiar--none"> <!-- CAMBIO HABILIDADES -->
+                    
+    
+                    <div class="habilidades_button">  
+                        <button id="botonHab1" class="habilidades_circulo habilidades_circulo--color"></button>
+                        <button  id="botonHab2" class="habilidades_circulo habilidades_circulo--color"></button>
+                        <button id="botonHab3" class="habilidades_circulo habilidades_circulo--color"></button>
+                        <button  id="botonHab4"class="habilidades_circulo habilidades_circulo--color"></button>
+                        <button id="botonHab5" class="habilidades_circulo habilidades_circulo--color"></button>
+                        </div> 
+                </div>
+    
+           
+            </div>
+    
+            <div class="habilidades_div--tamano"> <!-- EDUCACION,ETC... -->
+    
+                <div class="habilidades_div2"> <!-- EDUCACION -->
+                    <div class="habilidades_cuadro2"> <!-- EDUCACIÓN TITULO -->
+                        <h3 class="habilidades_titulo">Educación</h3>
+                    </div>
+                    <div class="habilidades_cuadroinf"> <!-- INF EDUCACION -->
+                        <div class="x"></div>
+                        <div class="habilidades_inf">
+                            <p>Universidad Popular Autónoma del Estado de Puebla (UPAEP)</p>
+                            <p>2020 - Actual</p>
+                            <p>Licenciatura en Diseño Gráfico y Digital</p>
+                            <p>Premio de excelencia académica "Cruz Forjada"</p>
+                        </div>
+                        <div class="habilidades_flecha">
+                            <button></button>
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="habilidades_div2"> <!-- EXPERIENCIA -->
+                    <div class="habilidades_cuadro2 habilidades_cuadro2--color2"> <!-- EXPERIENCIA TITULO -->
+                        <h3 class="habilidades_titulo">Experiencia Profesional</h3>
+                        <div> <!-- BOTONES -->
+                            <button id="botonExpe1" class="habilidades_circulo habilidades_circulo--colho1"></button>
+                            <button id="botonExpe2" class="habilidades_circulo habilidades_circulo--colho1"></button>
+                         
+                        </div>
+                    </div>
+                    <div  class="habilidades_cuadroinf"> <!-- INF EXPERIENCIA -->
+                        <div id="habilidadesExperiencia" class="habilidades_inf habilidades_inf--color2">
+                            Gestión de redes sociales: "Carlos Martín Huerta"</p>
+                            <p>marzo - julio 2023</p>
+                            <p>Se generó contenido para redes sociales y publicaciones informativas, llegando a obtener publicaciones con más de 2000 reacciones</p>
+                            
+                        </div>
+                        <div class="habilidades_flecha">
+                            <button></button>
+                        </div>
+                    </div>
+    
+                </div>
+    
+    
+                <div class="habilidades_div2"> <!-- EXTRACU -->
+                    <div class="habilidades_cuadro2 habilidades_cuadro2--color1"> <!-- EXPERIENCIA TITULO -->
+                        <h3 class="habilidades_titulo">Actividades Extracurriculares</h3>
+                        <div> <!-- BOTONES -->
+                            <button id="buttonExtra1" class="habilidades_circulo habilidades_circulo--colho2"></button>
+                            <button id="buttonExtra2" class="habilidades_circulo habilidades_circulo--colho2"></button>
+                            <button id="buttonExtra3" class="habilidades_circulo habilidades_circulo--colho2"></button>
+                            <button id="buttonExtra4" class="habilidades_circulo habilidades_circulo--colho2"></button>
+                            <button id="buttonExtra5"class="habilidades_circulo habilidades_circulo--colho2"></button>
+                        </div>
+                    </div>
+                    <div class="habilidades_cuadroinf"> <!-- INF EXPERIENCIA -->
+                        <div id="extraDiv" class="habilidades_inf habilidades_inf--color1">
+                            <p>Designathon</p>
+                            <p>agosto 2020</p>
+                            <p>Trabajo de equipo con estudiantes de la Universidad de Oklahoma</p>
+                         
+    
+                        </div>
+                        <div class="habilidades_flecha">
+                            <button></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+    
+    
+        </div>
+
+    
+    
+        <script src="app.js"></script>
+    </section>
+
+
+
+    <!-- PROYECTO A DETALLE -->
+    <section class="detallesContainer">
+        <div class="detalles">
+            <div class="detalles_description">
+                <h2 class="detalles_title">Re-Diseño: "Informe del rector UPAEP</h2>
+                <p class="detalles_description">Proyecto gráfico, maquetación e investigación realizado para un Typebook de la tipografía Bodoni, trabajo realizado durante la Licenciatura en Diseño Gráfico y Digital. El objetivo del trabajo es mostrar la historia de la tipografía realizada por Giambattsta Bodoni. El paso del tiempo con la tipografía, las características de la fuente, las variantes y grietas así como las diferentes partituras.</p>
+                <div class="wrapper">
+                    <div class="container">
+                        <div class="slider">
+                            <input hidden type="radio" name="slide" id="slide1" checked>
+                            <input hidden type="radio" name="slide" id="slide2">
+                            <input hidden type="radio" name="slide" id="slide3">
+                
+                            <div class="content">
+                                <img src="img/2.jpg" alt="Slide 1">
+                                <img src="img/Newspaper_v02.jpg" alt="Slide 2">
+                                <img src="img/Magazine_Mockup_v01.jpg" alt="Slide 3">
+                            </div>
+                
+                            <div class="buttons">
+                                <label for="slide1"></label>
+                                <label for="slide2"></label>
+                                <label for="slide3"></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+            <div class="detalles_info">
+                <div class="info_aprendizaje">
+                    <h3>¿Que aprendi del proyecto?</h3>
+                </div>
+                <div class="info_proceso">
+                    <h3>¿Como lo realice?</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- FOOTER -->
+     <footer class="footer">
+        <nav class="footer_nav">
+            <a class="footer_nav_item" href="#">Inicio</a>
+            <a class="footer_nav_item" href="#">Conoceme</a>
+            <a class="footer_nav_item" href="#">Mis proyectos</a>
+        </nav>
+
+        <div class="footer_logo">
+            <img src="img/desingFooter.png" alt="">
+        </div>
+
+        <section class="footer_redes">
+            <p class="footer_redes_description">Medio de contacto</p>
+
+            <nav class="redes_nav">
+                <!-- REDES -->
+                <a class="footer_redes_button" href="">
+                    <i class="fa-brands fa-behance icon"></i>
+                </a>
+                <!-- REDES -->
+                <a class="footer_redes_button" href="">
+                    <i class="fa-brands fa-youtube icon"></i>
+                </a>
+                <!-- REDES -->
+                <a class="footer_redes_button" href="">
+                    <i class="fa-brands fa-artstation icon"></i>
+                </a>
+                <!-- REDES -->
+                <a class="footer_redes_button" href="">
+                    <i class="fa-brands fa-linkedin icon"></i>
+                </a>
+            </nav>
+        </section>
+        
+     </footer>
+    <!-- SCRIPTS -->
+     <script src="app.js"></script>
+    <!-- icons -->
+    <script src="https://kit.fontawesome.com/7b35ff6dce.js" crossorigin="anonymous"></script>
+</body>
+</html>
